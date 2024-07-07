@@ -6,7 +6,13 @@
 // OpenZeppelin Contracts v4.4.1 (utils/Context.sol)
 
 pragma solidity ^0.8.0;
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
 
+   import "https://github.com/Zoolling2020/New-Reository/tree/zoolling";
+import "@openzeppelin/contracts/access/Ownable.sol";
+
+contract MaldivesCoin is ERC20, Ownable {
 /**
  * @dev Provides information about the current execution context, including the
  * sender of the transaction and its data. While these are generally available
